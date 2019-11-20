@@ -3,13 +3,24 @@
   "version": "1.0.0",
   "description": "A very simple and small cli tool to work with large SSH Config file",
   "main": "cli.js",
+  "author": {
+    "name": "Jonathan Willian",
+    "email": "jonathan.willian.tod@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akamuraasai/ssh-list"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
     "ssh-list": "./cli.js"
   },
-  "keywords": [],
+  "keywords": [
+    "ssh",
+    "node"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
