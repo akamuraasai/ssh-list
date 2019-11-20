@@ -1,0 +1,20 @@
+{
+  "name": "ssh-list",
+  "version": "1.0.0",
+  "description": "A very simple and small cli tool to work with large SSH Config file",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ssh-list": "./cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "inquirer": "^7.0.0",
+    "yargs": "^15.0.2"
+  }
+}
